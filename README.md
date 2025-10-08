@@ -53,7 +53,7 @@ A real-time network traffic analyzer with machine learning-powered intrusion det
 
 1. **Clone the repository**
    ```bash
-   git clone <[repository-url](https://github.com/rusiru1231/Network-Traffic-Analyzer-with-Intrusion-Detection.git)>
+   git clone https://github.com/rusiru1231/Network-Traffic-Analyzer-with-Intrusion-Detection.git
    cd "Network Traffic Analyzer with Intrusion Detection"
    ```
 
