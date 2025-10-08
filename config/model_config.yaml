@@ -1,0 +1,62 @@
+# Model Configuration
+model:
+  type: "ensemble"
+  random_forest:
+    n_estimators: 200
+    max_depth: 15
+    min_samples_split: 5
+    min_samples_leaf: 2
+    random_state: 42
+  mlp:
+    hidden_layer_sizes: [100, 50]
+    max_iter: 500
+    learning_rate_init: 0.001
+    random_state: 42
+
+# Network Configuration
+network:
+  interface: "auto"
+  filter: null
+  capture_timeout: 1
+  buffer_size: 1000
+
+# Detection Settings
+detection:
+  threshold: 0.5
+  anomaly_threshold: -0.5
+  enable_anomaly_detection: true
+  flow_timeout: 60
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  log_file: "logs/intrusion_detection.log"
+  security_log_file: "logs/security_events.log"
+  console_output: true
+  max_file_size: 10485760  # 10 MB
+  backup_count: 5
+
+# Data Paths
+data:
+  dataset_path: "data/cicids2017"
+  model_save_path: "models/intrusion_model.joblib"
+  scaler_save_path: "models/scaler.joblib"
+
+# Dashboard Configuration
+dashboard:
+  host: "localhost"
+  port: 8501
+  auto_refresh_interval: 5
+  max_display_packets: 100
+
+# Alert Configuration
+alerts:
+  enable_email: false
+  email_smtp_server: "smtp.gmail.com"
+  email_smtp_port: 587
+  email_username: ""
+  email_password: ""
+  email_recipients: []
+  enable_syslog: false
+  syslog_server: "localhost"
+  syslog_port: 514
