@@ -99,14 +99,14 @@ For new features, please provide:
 
 For security-related issues:
 - Do NOT open public issues
-- Email: security@example.com
+- Email: rusirubandara408@gmail.com
 - Use responsible disclosure practices
 
 ## 📞 Getting Help
 
 - 💬 **Discussions:** GitHub Discussions
 - 🐛 **Issues:** GitHub Issues
-- 📧 **Email:** support@example.com
+- 📧 **Email:** rusirubandara408@gmail.com
 - 📚 **Documentation:** See README.md
 
 ## 🙏 Recognition
