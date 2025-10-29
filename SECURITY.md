@@ -16,7 +16,7 @@ We take security seriously. If you discover a security vulnerability, please fol
 
 **DO NOT** open a public GitHub issue for security vulnerabilities.
 
-Instead, please report security issues by emailing: **security@example.com**
+Instead, please report security issues by emailing: **rusirubandara408@gmail.com**
 
 ### 📋 **What to Include**
 
