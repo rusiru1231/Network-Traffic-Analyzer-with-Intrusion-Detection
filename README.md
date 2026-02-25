@@ -2,7 +2,7 @@
 
 A real-time network traffic analyzer with machine learning-powered intrusion detection capabilities, achieving 92% precision using the CICIDS 2017 dataset.
 
-## 🚀 Features
+## Features
 
 - **Real-time Packet Analysis**: Live network traffic monitoring using Scapy
 - **ML-Powered Detection**: Advanced machine learning models for anomaly detection
@@ -11,7 +11,7 @@ A real-time network traffic analyzer with machine learning-powered intrusion det
 - **Multiple Datasets**: Support for both NSL-KDD and CICIDS 2017 datasets
 - **Scalable Architecture**: Modular design for easy extension and deployment
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Backend**: Python 3.8+
 - **ML Frameworks**: TensorFlow, PyTorch, Scikit-learn
@@ -20,12 +20,12 @@ A real-time network traffic analyzer with machine learning-powered intrusion det
 - **Visualization**: Streamlit, Plotly, Matplotlib
 - **Additional Tools**: Wireshark (for packet analysis reference)
 
-## 📊 Datasets
+## Datasets
 
 - **CICIDS 2017**: Primary dataset for training and evaluation
 - **NSL-KDD**: Alternative dataset for comparison and validation
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -41,7 +41,7 @@ A real-time network traffic analyzer with machine learning-powered intrusion det
 └── requirements.txt       # Python dependencies
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -95,7 +95,7 @@ A real-time network traffic analyzer with machine learning-powered intrusion det
 4. **Access the Dashboard**
    Open your browser and navigate to `http://localhost:8501`
 
-## 🔧 Configuration
+## Configuration
 
 Configuration files are located in the `config/` directory:
 
@@ -103,14 +103,14 @@ Configuration files are located in the `config/` directory:
 - `network_config.yaml`: Network interface settings
 - `dashboard_config.yaml`: Dashboard customization
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - **Precision**: 92%
 - **Recall**: 89%
 - **F1-Score**: 90.5%
 - **Accuracy**: 94%
 
-## 🔍 Features Overview
+## Features Overview
 
 ### Real-time Monitoring
 - Live packet capture and analysis
@@ -129,18 +129,18 @@ Configuration files are located in the `config/` directory:
 - Historical data exploration
 - Alert management system
 
-## 🧪 Testing
+## Testing
 
 Run the test suite:
 ```bash
 pytest tests/
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -148,14 +148,14 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## ⚠️ Important Notes
+## Important Notes
 
 - **Administrator Privileges**: Required for packet capture functionality
 - **Network Interface**: Ensure proper network interface configuration
 - **Firewall**: May need to configure firewall rules for packet capture
 - **Performance**: Real-time analysis requires adequate system resources
 
-## 📞 Support
+## Support
 
 For questions and support, please open an issue in the repository.
 
